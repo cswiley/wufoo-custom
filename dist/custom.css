@@ -1,0 +1,35 @@
+.wufoo input.text,
+.wufoo textarea {
+  padding: 0.5rem; }
+
+.wufoo .focused {
+  background: none; }
+
+.wufoo select {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0.5rem;
+  font-size: inherit;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out; }
+
+.wufoo input[type="submit"] {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 1rem 0;
+  padding: 0.85em 1em;
+  border-radius: 0;
+  -webkit-transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  font-family: inherit;
+  font-size: 0.9rem;
+  -webkit-appearance: none;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer; }

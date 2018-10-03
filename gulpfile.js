@@ -8,7 +8,7 @@ gulp.task('sass', function () {
     .pipe(sass({
         includePaths: ['node_modules']
     }).on('error', sass.logError))
-    .pipe(gulp.dest('./css'));
+    .pipe(gulp.dest('./dist'));
 });
 
 gulp.task('sass:watch', function () {
