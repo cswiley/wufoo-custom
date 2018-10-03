@@ -19,11 +19,14 @@
   border-radius: .25rem;
   transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out; }
 
+.wufoo .button,
 .wufoo input[type="submit"] {
   display: inline-block;
   vertical-align: middle;
   margin: 0 0 1rem 0;
-  padding: 0.85em 1em;
+  padding: 1rem 2rem;
+  background-color: #0a0a0a;
+  color: #fefefe;
   border-radius: 0;
   -webkit-transition: background-color 0.25s ease-out, color 0.25s ease-out;
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
@@ -32,4 +35,8 @@
   -webkit-appearance: none;
   line-height: 1;
   text-align: center;
-  cursor: pointer; }
+  cursor: pointer;
+  text-transform: uppercase; }
+  .wufoo .button:hover,
+  .wufoo input[type="submit"]:hover {
+    background-color: #3d3d3d; }

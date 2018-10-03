@@ -24,11 +24,14 @@
         transition       : border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     }
 
+    .button,
     input[type="submit"] {
         display            : inline-block;
         vertical-align     : middle;
         margin             : 0 0 1rem 0;
-        padding            : 0.85em 1em;
+        padding            : $button-padding;
+        background-color   : $button-background;
+        color              : $button-color;
         //border             : 1px solid #0000;
         border-radius      : 0;
         -webkit-transition : background-color 0.25s ease-out, color 0.25s ease-out;
@@ -39,6 +42,10 @@
         line-height        : 1;
         text-align         : center;
         cursor             : pointer;
+        text-transform     : uppercase;
+        &:hover {
+            background-color : lighten($button-background, 20%);
+        }
         //color              : #fefefe;
     }
 }
