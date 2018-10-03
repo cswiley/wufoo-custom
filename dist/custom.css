@@ -2,7 +2,7 @@
 .wufoo textarea {
   padding: 0.5rem; }
 
-.wufoo .focused {
+.wufoo li.focused {
   background: none; }
 
 .wufoo select {
