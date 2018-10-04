@@ -11,10 +11,13 @@
         font-family: $header-font-family;
     }
 
+    input.field.checkbox,
     input.field.radio,
     label.choice {
         display:inline-block;
     }
+
+    input.field.checkbox,
     input.field.radio {
         margin: 0 .2rem 1rem 0;
     }
