@@ -9,6 +9,10 @@
   .wufoo input.field.radio,
   .wufoo label.choice {
     display: inline-block; }
+  @media screen and (max-width: 39.99875em) {
+    .wufoo input.medium,
+    .wufoo select.medium {
+      width: 100%; } }
   .wufoo input.field.checkbox,
   .wufoo input.field.radio {
     margin: 0 .2rem 1rem 0; }

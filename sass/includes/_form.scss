@@ -17,6 +17,13 @@
         display:inline-block;
     }
 
+    input.medium,
+    select.medium {
+        @include breakpoint(small only) {
+            width: 100%;
+        }
+    }
+
     input.field.checkbox,
     input.field.radio {
         margin: 0 .2rem 1rem 0;
