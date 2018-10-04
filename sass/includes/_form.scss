@@ -2,7 +2,7 @@
 
 .wufoo {
     header {
-        display:none;
+        display:none !important;
     }
 
     font-family: $body-font-family;
