@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin");
 .wufoo {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+  font-family: "Libre Franklin", sans-serif; }
   .wufoo header {
     display: none; }
   .wufoo h1, .wufoo h2, .wufoo h3 {
@@ -8,7 +9,7 @@
   .wufoo select,
   .wufoo textarea,
   .wufoo input {
-    font-family: inherit;
+    font-family: "Libre Franklin", sans-serif;
     margin-bottom: .5rem;
     font-size: 1rem; }
   .wufoo label {

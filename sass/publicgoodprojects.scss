@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+
+@import "includes/settings";
+$body-font-family: 'Libre Franklin', sans-serif;
+$body-font-family: $body-font-family;
+$input-font-family: $body-font-family;
+
+// Foundation components
+//@import 'foundation-sites/scss/foundation';
+//@include foundation-forms;
+
+@import "includes/form";
+

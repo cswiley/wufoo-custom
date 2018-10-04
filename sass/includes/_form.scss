@@ -1,5 +1,30 @@
 
+
 .wufoo {
+    header {
+        display:none;
+    }
+
+    font-family: $body-font-family;
+
+    h1,h2,h3 {
+        font-family: $header-font-family;
+    }
+
+    label,
+    select,
+    textarea,
+    input {
+        font-family: $input-font-family;
+        margin-bottom: .5rem;
+        font-size: $input-font-size;
+    }
+
+    label {
+        line-height: $form-label-line-height;
+    }
+
+
     input.text,
     textarea {
         padding : $input-padding;
@@ -14,7 +39,6 @@
         width            : 100%;
         height           : calc(2.25rem + 2px);
         padding          : $input-padding;
-        font-size        : inherit;
         line-height      : 1.5;
         color            : #495057;
         background-color : #fff;
@@ -36,8 +60,8 @@
         border-radius      : 0;
         -webkit-transition : background-color 0.25s ease-out, color 0.25s ease-out;
         transition         : background-color 0.25s ease-out, color 0.25s ease-out;
-        font-family        : inherit;
-        font-size          : 0.9rem;
+        //font-family        : inherit;
+        //font-size          : 0.9rem;
         -webkit-appearance : none;
         line-height        : 1;
         text-align         : center;

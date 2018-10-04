@@ -4,7 +4,7 @@ var gulp = require('gulp'),
     sass = require('gulp-sass');
 
 gulp.task('sass', function () {
-    return gulp.src('./sass/custom.scss')
+    return gulp.src('./sass/*.scss')
     .pipe(sass({
         includePaths: ['node_modules']
     }).on('error', sass.logError))
