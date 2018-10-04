@@ -16,10 +16,11 @@
   .wufoo label,
   .wufoo select,
   .wufoo textarea,
+  .wufoo legend,
   .wufoo input {
     font-family: inherit;
     margin-bottom: .5rem;
-    font-size: 1rem; }
+    font-size: 1rem !important; }
   .wufoo label {
     line-height: 1.8; }
   .wufoo input.text,

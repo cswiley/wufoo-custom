@@ -28,10 +28,11 @@
     label,
     select,
     textarea,
+    legend,
     input {
         font-family: $input-font-family;
         margin-bottom: .5rem;
-        font-size: $input-font-size;
+        font-size: $input-font-size !important;
     }
 
     label {
