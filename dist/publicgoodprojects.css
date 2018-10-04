@@ -2,7 +2,7 @@
 .wufoo {
   font-family: "Libre Franklin", sans-serif; }
   .wufoo header {
-    display: none; }
+    display: none !important; }
   .wufoo h1, .wufoo h2, .wufoo h3 {
     font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
   .wufoo input.field.checkbox,
