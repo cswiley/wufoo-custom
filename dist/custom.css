@@ -12,7 +12,8 @@
   .wufoo input.field.radio {
     margin: 0 .2rem 1rem 0; }
   .wufoo label.choice {
-    margin: 0 1rem 0 0; }
+    margin: 0 1rem 0 0;
+    width: 75%; }
   .wufoo label,
   .wufoo select,
   .wufoo textarea,
