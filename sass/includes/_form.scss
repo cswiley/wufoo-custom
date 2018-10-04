@@ -11,6 +11,17 @@
         font-family: $header-font-family;
     }
 
+    input.field.radio,
+    label.choice {
+        display:inline-block;
+    }
+    input.field.radio {
+        margin: 0 .2rem 1rem 0;
+    }
+    label.choice {
+        margin: 0 1rem 0 0;
+    }
+
     label,
     select,
     textarea,

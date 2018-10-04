@@ -5,6 +5,13 @@
     display: none; }
   .wufoo h1, .wufoo h2, .wufoo h3 {
     font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+  .wufoo input.field.radio,
+  .wufoo label.choice {
+    display: inline-block; }
+  .wufoo input.field.radio {
+    margin: 0 .2rem 1rem 0; }
+  .wufoo label.choice {
+    margin: 0 1rem 0 0; }
   .wufoo label,
   .wufoo select,
   .wufoo textarea,
